@@ -1,0 +1,129 @@
+.content{
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    position: relative;
+}
+
+.content-image{
+    width: 125px;
+    height: 168px;
+    left: 40px;
+    top: 100px;
+    /* width: 100%; */
+    /* height: 100%; */
+    border-radius: 5px;
+    flex-direction: row;
+    border: none;
+    position: relative;
+    display: flex;
+    /* width: 175px; */
+    font-size: 12px;
+    flex: 0 0 auto;
+    margin: 10px;
+}
+
+.location-icon{
+    position: absolute; 
+    width: 7px;
+    height: 9.55px;
+    left: 200px;
+    top: 120px;
+}
+
+.japan{
+    position: absolute;
+    width: 440px;
+    height: 10px;
+    left: 210px;
+    top: 119px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    margin-top: 1px;
+
+    color: #2B283A;
+
+}
+
+.google-map{
+    position: absolute;
+    width: 106px;
+    height: 13px;
+    left: 275px;
+    top: 119px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-top: 1px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.mount-fuji{
+    position: absolute;
+    width: 326px;
+    height: 40px;
+    left: 200px;
+    top: 135px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px; 
+    font-weight: bold;
+    color: #2B283A; 
+}
+
+.date{
+    position: absolute;
+    width: 319px;
+    height: 11px;
+    left: 200px;
+    top: 170px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px; 
+    
+    color: #2B283A;
+}
+
+.fuji-text{
+    position: absolute; 
+    width: 326px;
+    height: 10px;
+    left: 200px;
+    margin-top: 190px;
+    /* top: 203px; */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    
+    
+    color: #2B283A;
+    
+}
+
+.content-flex{
+     
+    overflow-x: auto;
+    margin-bottom: 15px;
+}
